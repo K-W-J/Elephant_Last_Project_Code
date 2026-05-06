@@ -8,7 +8,7 @@ using UnityEngine.Events;
 
 namespace Code.Skills.Core
 {
-    public class Skill : MonoBehaviour, IAttackSource
+    public abstract class Skill : MonoBehaviour, IAttackSource
     {
         public UnityEvent OnCoolDownCompleteEvent;
         public UnityEvent OnCoolDownStartEvent;
